@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend server for Gem AI chatbot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file .env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay57/chatgpt-clone.git#master"
+  },
+  "author": "Abhay Kaushik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhay57/chatgpt-clone/issues"
+  },
+  "homepage": "https://github.com/abhay57/chatgpt-clone/tree/master#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "imagekit": "^5.2.0"
+  }
+}
